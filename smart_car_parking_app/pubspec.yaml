@@ -1,0 +1,36 @@
+name: smart_car_parking_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.2
+  gap: any
+  provider: ^6.1.2
+  flutter_screenutil: ^5.9.3
+  shared_preferences: ^2.2.3
+  intl: ^0.20.1
+  firebase_database: ^11.2.0
+  firebase_core: ^3.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - images/sport-car.png
+  - images/logo.png
+  - images/spaces.png
+  - images/driving-lessons.png
+  - images/temperature.png
+  - images/humidity.png
+  - images/smoke.png
+
