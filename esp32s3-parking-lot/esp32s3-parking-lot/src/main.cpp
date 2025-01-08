@@ -46,10 +46,10 @@ Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 #define WIFI_PASSWORD "24072002"
 
 // Insert Firebase project API Key
-#define API_KEY "AIzaSyDPvrssOl_BTebow0gH6HYVLHpYk5fUDJA"
+#define API_KEY ""
 
 // Insert RTDB URLefine the RTDB URL */
-#define DATABASE_URL "https://final-1bd4d-default-rtdb.firebaseio.com/"
+#define DATABASE_URL ""
 // Define Firebase Data object
 FirebaseData fbdo;
 
